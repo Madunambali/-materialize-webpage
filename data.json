@@ -1,0 +1,45 @@
+
+    {
+        "user" : {
+            "fullName": "Mbali Maduna",
+            "photo" : "isthombe.jpeg"
+        },
+        "city" : {
+            "name" : "Zanzibar",
+            "photo" : "Zanzibar.jpg",
+            "description" : "I would like to visit Zanzibar. Zanzibar has always intrigued me with its rich cultural heritage, beautiful beaches, and vibrant history. The island offers a unique blend of African, Arab, and European influences, making it a fascinating destination to explore. From the historic Stone Town to the pristine shores, Zanzibar promises an unforgettable experience filled with adventure and relaxation."
+        },
+        "foreignLanguage" : {
+            "language" : "Swahili",
+            "phrases" : [{
+                "englishPhrase" : "Hello",
+                "foreignLanguage" : "Habari"
+            },
+            {
+                "englishPhrase" : "Thank you",
+                "foreignLanguage" : "Asante"
+            },
+            {
+                "englishPhrase" : "Yes",
+                "foreignLanguage" : "Ndio"
+            },
+            {
+                "englishPhrase" : "Please",
+                "foreignLanguage" : "Tafadhali"
+            }]
+        },
+        "favouriteSubjects" : [
+            {
+                "name" : "FULL STACK WEB DEVELOPMENT FOR 4IR",
+                "description" : "This has been my favourite subject so far, because of the skills I have gotten from the program. The program focuses on equipping learners with the skills and knowledge necessary to develop web applications across the entire technology stack, in the context of the Fourth Industrial Revolution (4IR)."
+            },
+            {
+                "name" : "ENGINEERING BUSINESS SYSTEMS FOR 4IR",
+                "description" : "This subject is designed to prepare students to design, implement, and manage business systems within the context of the Fourth Industrial Revolution (4IR)."
+            },
+            {
+                "name" : "AGILE RAPID SKILLS ACQUISITION",
+                "description" : "This subject focuses on teaching learners how to quickly acquire new skills and adapt to changing requirements in an agile and efficient manner."
+            }
+        ]
+    }

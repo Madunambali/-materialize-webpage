@@ -1,0 +1,35 @@
+    
+
+        .profile {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .profile img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .city-photo {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    

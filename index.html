@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>materialize webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <div class="profile">
+        
+        <h1>{{user.fullName}}</h1>
+        <img src="{{user.photo}}" alt="User Photo">
+        
+        <h2>{{city.name}}</h2>
+        <img src="{{city.photo}}" class="city-photo" alt="{{city.name}} Photo">
+        <p>{{city.description}}</p>
+        
+        <h2>Languages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>English Phrase</th>
+                    <th>Foreign Language</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each foreignLanguage.phrases}}
+                <tr>
+                    <td>{{englishPhrase}}</td>
+                    <td>{{foreignLanguage}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        
+        <h2>Favorite Subjects</h2>
+        {{#each favouriteSubjects}}
+        <h3>{{name}}</h3>
+        <p>{{description}}</p>
+        {{/each}}
+    </div>
+</body>
+</html>
